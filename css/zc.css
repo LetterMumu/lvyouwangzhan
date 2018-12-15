@@ -1,0 +1,100 @@
+body,
+div,
+ul,
+li {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font: 18px "宋体";
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    clear: both;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabs0 {
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: #f3f58f;
+}
+
+.menu0 {
+    border-top-left-radius: 20px;
+    width: 400px;
+}
+
+.menu0 li {
+    display: block;
+    float: left;
+    padding: 4px 0;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f3f58f;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #393a11;
+}
+
+.menu0 li.hover {
+    background-color: #fcff49;
+}
+
+#main0 ul {
+    display: none;
+}
+
+#main0 ul.block {
+    display: block;
+}
+
+.zc>span {
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    color: #393a11;
+}
+
+.zc>span>p {
+    font: 30px;
+}
+
+.zc>span>input {
+    width: 200px;
+    height: 30px;
+    border: #adaf3b 1px solid;
+    border-radius: 5px;
+}
+
+.zc>span>button {
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: #adaf3b 1px solid;
+    cursor: pointer;
+    background-color: #fbff1f;
+    border-radius: 5px;
+}
+
+.zc>span>button>a {
+    text-decoration: none;
+    color: #393a11;
+}
+.clean{
+    height: 50px;
+}

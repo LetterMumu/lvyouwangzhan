@@ -1,0 +1,180 @@
+.index_main_box41>img {
+    width: 300px;
+    height: 225px;
+    border-radius: 20px;
+}
+
+.box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.index_main_box42>span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #FFA723;
+}
+
+.text {
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #b9ae11;
+}
+
+
+.index_main_box3 {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden
+}
+
+.index_main_box4 {
+    width: 460px;
+    height: 225px;
+    float: left;
+    background-color: rgba(255, 244, 124, 0.5);
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.index_main_box4:hover {
+    background-color: rgba(255, 244, 122, 0.5);
+    box-shadow: 10px 10px 20px 2px rgba(255, 241, 43, 0.9);
+}
+
+.index_main_box41 {
+    width: 300px;
+    height: 225px;
+    margin-right: 5px;
+    float: left;
+}
+
+.index_main_box42 {
+    width: 150px;
+    height: 225px;
+    float: left;
+}
+
+.more {
+    height: 25px;
+    width: 70px;
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+
+.more>a {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #FFA723;
+    background-color: rgba(255, 244, 122, 0.5);
+    border-radius: 5px;
+}
+
+.more>a:hover {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #FFA723;
+    background-color: rgba(255, 240, 71, 0.89);
+    border-radius: 5px;
+}
+
+.index_main_box5 {
+    width: 1000px;
+    height: 620px;
+    margin: 0 auto;
+}
+
+.index_main_box51 {
+    width: 180px;
+    height: 180px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.index_main_box51:hover {
+    box-shadow: 10px 10px 20px 2px rgba(255, 241, 43, 0.9);
+}
+
+.index_main_box51:hover .box5_text {
+    display: block;
+}
+
+.index_main_box51_btn {
+    width: 40PX;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+}
+
+.index_main_box51_btn>button {
+    width: 40PX;
+    height: 20px;
+    border-radius: 5px;
+    outline-style: none;
+    border: 0;
+    background-color: #e9df5a;
+    cursor: pointer;
+    color: #85823c;
+}
+
+.index_main_box51_btn>button:hover {
+    box-shadow: 0px 0px 2px 1px rgba(255, 241, 43, 0.9);
+    /*
+        登陆页面选项卡
+    */
+}
+
+.index_main_box51_btn>button:active {
+    outline-style: none;
+}
+.index_main_box51_btn>button>a{
+   text-decoration: none;
+color:#685620;
+}
+.index_main_box51>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.box5_text {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    background-color: #2c2c2ca6;
+    border-radius: 20px;
+    display: none;
+    transition: all 1s;
+}
+
+.box5_text_text {
+    position: relative;
+    width: 160px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFA723;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+}

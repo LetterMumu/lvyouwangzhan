@@ -1,0 +1,57 @@
+.tuijian_main {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.tuijian_top_left {
+    float: left;
+    width: 210px;
+    height: 505px;
+
+}
+
+.tuijian_top_right {
+    float: right;
+    width: 210px;
+    height: 505px;
+
+}
+
+.tuijian_top_left>.img,
+.tuijian_top_right>.img {
+    width: 200px;
+    height: 120px;
+    margin: 5px auto;
+
+}
+
+.tuijian_top_left>.img>img,
+.tuijian_top_right>.img>img {
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.tuijian_top_center {
+    float: left;
+    width: 560px;
+    height: 505px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.tuijian_top_center>img {
+    width: 560px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.tuijian_top_center>.text {
+    text-align: center;
+    color: #85823C;
+}
+
+.tuijian_top_center>.text>h2,
+.tuijian_top_center>.text>h3 {
+    line-height: 40px;
+}

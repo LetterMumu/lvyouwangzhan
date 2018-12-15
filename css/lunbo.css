@@ -1,0 +1,105 @@
+#lunbo {
+    /* # id选择器 */
+    position: relative;
+    /*相对定位:参考物*/
+    width: 1000px;
+    /*宽度*/
+    height: 454px;
+    /*高度*/
+    margin: 10px auto;
+    /*上下100px 左右自动(居中)*/
+    border-radius: 20px;
+}
+
+.lunbo1 {
+    /* . class类选择器 */
+    width: 1000px;
+    /*宽度*/
+    height: 454px;
+    /*高度*/
+}
+
+.lunbo1 ul li>img {
+    width: 1000px;
+    height: 454px;
+    border-radius: 20px;
+}
+
+.lunbo1 ul li {
+    /*混合选择器*/
+    list-style: none;
+    /*去除前面的小黑圆点*/
+    /*opacity:0;透明度:0-1 0完全透明*/
+    display: none;
+    /*隐藏*/
+}
+
+.lunbo1 ul li.curr {
+    /*opacity:1;*/
+    display: block;
+
+}
+
+.icon {
+    position: absolute;
+    /*绝对定位:定位元素*/
+    left: 0px;
+    bottom: 8px;
+    width: 100%;
+    /*与参考物的宽度一样*/
+    text-align: center;
+}
+
+.icon ul li {
+    display: inline-block;
+    /*行间块级元素*/
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background: rgba(252, 245, 152, 0.767);
+    border-radius: 50%;
+    /*圆角属性*/
+    color: #fff;
+    /*文本颜色*/
+    text-align: center;
+    /*文本左右对齐方式*/
+    cursor: pointer;
+    /*鼠标的形状*/
+    /*float:left;左浮动:与父元素左端对齐依次的往右端显示*/
+}
+
+.icon ul li.first {
+    background: rgb(255, 252, 48);
+}
+
+.btn {
+    display: none;
+    /*隐藏*/
+}
+
+.btn div {
+    position: absolute;
+    top: 45%;
+    width: 28px;
+    height: 62px;
+    background: rgba(0, 0, 0, 0.2);
+    /*red红色 green绿色 blue蓝色 0-255 a透明度 0-1*/
+    color: rgb(253, 235, 135);
+    font-size: 24px;
+    /*文本大小*/
+    text-align: center;
+    line-height: 62px;
+    /*行高*/
+    cursor: pointer;
+    /*鼠标的形状*/
+
+}
+
+.btn>div.left {
+    position: absolute;
+    left: 0;
+}
+
+.btn>div.right {
+    right: 0;
+}

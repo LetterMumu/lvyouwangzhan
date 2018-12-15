@@ -1,0 +1,237 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fbfda342;
+    margin: 0 auto;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.head {
+    width: 1366px;
+}
+
+.box1 {
+    height: 60px;
+    background-color: #fdef13;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+}
+
+.find {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 40px;
+    margin-left: 50%;
+    right: 10%;
+    top: 10px;
+    display: flex;
+}
+
+.input1 {
+    float: left;
+    margin-left: 200px;
+    height: 40px;
+    width: 100px;
+    border: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 18px;
+}
+
+.input1:focus {
+    margin-left: 0;
+    width: 290px;
+    outline-style: none;
+    font: 18px;
+    padding-left: 10px;
+}
+
+.button1 {
+    float: left;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #fff67b;
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #85823c;
+}
+
+.button1:focus {
+    outline-style: none;
+
+}
+
+
+.button1:hover {
+    background-color: #ffa723;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.75s;
+}
+
+.lgin {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    float: right;
+    right: 50px
+}
+
+.lgin>ul {
+    margin-top: 10px;
+    widows: 1366px;
+    ;
+    height: 40px;
+    list-style: none
+}
+
+.lgin>ul>li {
+    float: left;
+    width: 50%;
+    height: 40px
+}
+
+.lgin a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fdef13;
+    text-decoration: none;
+    overflow: hidden;
+    color: #85823c;
+    transition: all 0.75s;
+}
+
+.lgin a:hover {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffa723;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 0.75s;
+}
+
+.box2 {
+    width: 100%;
+    height: 40px;
+    background-color: #fff67b;
+}
+
+.box2>ul {
+    margin-left: 5%;
+    width: 95%;
+    height: 40px;
+    list-style: none;
+}
+
+.box2>ul>li {
+    float: left;
+    width: 9%;
+    height: 40px;
+    margin-left: 1%;
+
+}
+
+.box2>ul>li:hover ul {
+    display: block;
+    transition: all 0.75s;
+}
+
+.box2ul>ul {
+    width: 9%;
+    height: 40px;
+    list-style: none;
+    display: none;
+    position: absolute;
+    z-index: 500;
+
+}
+
+.box2ul>ul>li {
+    float: none;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff67bbe;
+}
+
+.box2ul>ul>li:first {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box2ul>ul>li>a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    overflow: hidden;
+    color: #85823c;
+    transition: all 0.75s;
+
+}
+
+.box2ul>ul>li>a:hover {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffa723;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px
+}
+
+.box2>ul>li>a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    /* background-color: #fff67b; */
+    text-decoration: none;
+    overflow: hidden;
+    color: #85823c;
+    transition: all 0.75s;
+}
+
+.box2>ul>li>a:hover {
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffa723;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
